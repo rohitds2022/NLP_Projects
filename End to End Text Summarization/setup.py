@@ -5,7 +5,7 @@ with open("README.md", "r",encoding="utf-8") as f:
 
 __version__ = '0.0.0'
 
-REPO_NAME =  "NLP_Projects/End to End Text Summarization"
+REPO_NAME =  "End to End Text Summarization"
 AUTHOR_USER_NAME = "rohitds2022"
 SRC_REPO = "textSummarizer"
 AUTHOR_EMAIL = "rohitds2022@gmail.com"
@@ -18,7 +18,7 @@ setuptools.setup(
     description="A small python package for NLP app",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    url=f"https://github.com/{AUTHOR_USER_NAME}/NLP_Projects/{REPO_NAME}",
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },

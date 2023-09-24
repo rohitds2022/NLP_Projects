@@ -1,0 +1,12 @@
+artifacts_root: artifacts  # it will create a folder called artifacts and all the generation like components, etc will get saved inside artifacts folder
+
+# configuration: if we need some path or url, we can store in this config.yaml and read it and use it later on
+
+# data ingestion config
+data_ingestion: 
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip # from this url, data will get downloaded
+  local_data_file: artifacts/data_ingestion/data.zip # here data will get downloaded
+  unzip_dir: artifacts/data_ingestion  # here unzipped data will get saved
+
+  
